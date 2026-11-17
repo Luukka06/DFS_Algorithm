@@ -44,22 +44,23 @@ vertex 1: 2/7, parent=0
 vertex 2: 8/9, parent=0
 vertex 3: 3/6, parent=1
 vertex 4: 4/5, parent=3
+```
 
-
-Important Notes
+# Important Notes
 - DFS uses recursion to explore the graph.
 - The visited array prevents revisiting vertices.
 - The parent vector stores the DFS tree structure.
 - Discovery and finishing times help track the traversal process.
 - The outer loop ensures that disconnected components are also visited.
 - AddEdge() creates directed edges.
-Complexity Analysis
+# Complexity Analysis
 - Time Complexity: O(V + E)
 - Space Complexity: O(V + E)
 Where:
 - V – Number of vertices.
 - E – Number of edges.
-Usage
+# Usage
+```
 Graph g(5);
 
 g.AddEdge(0, 1);
@@ -70,3 +71,4 @@ g.AddEdge(3, 4);
 
 g.printGraph();
 g.DFS();
+```
