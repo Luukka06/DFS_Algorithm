@@ -1,4 +1,4 @@
-# DFS Algorithm
+# DFS (Deep First Search) Algorithm 
 
 ## Overview
 Depth-First Search (DFS) is a graph traversal algorithm that explores as deeply as possible along each path before backtracking. This implementation uses recursion.
